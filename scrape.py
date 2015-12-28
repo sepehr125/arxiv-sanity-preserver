@@ -11,10 +11,10 @@ os.system('mkdir -p raw') # ?
 base_url = 'http://export.arxiv.org/api/query?';
 
 # Search parameters
-search_query = 'cat:cs.CV+OR+cat:cs.LG+OR+cat:cs.CL'
+search_query = 'all'
 start = 0
 total_results = 50000
-results_per_iteration = 100
+results_per_iteration = 1000
 wait_time = 5
 
 print 'Searching arXiv for %s' % search_query
